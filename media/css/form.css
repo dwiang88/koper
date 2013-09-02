@@ -1,0 +1,90 @@
+#form-container {
+	background:#F9F9F9;
+	border: solid 1px #ddd;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0px 0px 10px #888;
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+        margin: 0px 0px 0px 40px;
+	padding:5px;
+	/*width:500px;*/
+        width: 80%;
+        font-size: small;
+}
+
+#form-container h2 { font-size:18px; color:#333; padding:0px; margin:0px 0px 10px 0px; }
+fieldset, form { padding:0px; margin:0px; border:none }
+#form-container .field  { clear:both; margin:0px; padding:10px 0px; }
+label { width:80px; }
+
+#form-container th{
+    background-color: #E5E5E5;
+    padding: 10px 10px 10px 10px;
+    margin: 3px 3px 3px 3px;
+}
+
+#form-container tr{
+    background-color: #D5E3F9;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+input[type=text], textarea, input[type=password], select {
+	background:#fff;
+	border:solid 1px #E5E5E5;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/*width:250px;*/
+        width: auto;
+        margin-bottom: 5px;
+}
+
+textarea { height:120px }
+label, input[type=text], textarea, input[type=password], select { padding:9px 5px; float:left }
+input[type=text]:focus, textarea:focus, input[type=password]:focus { background:#EDF3FC; padding:8px 5px; border:solid 2px #D5E3F9; }
+
+.submit-button {
+	background: #57A02C;
+	border:solid 1px #86CC50;
+	border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	color:#FFF;
+	cursor:pointer;
+	font-size:13px;
+	margin-left:10px;
+	padding:3px 8px;
+}
+
+.submit-button:hover { background:#82D051 }
+.error {background: #ffcece; border:solid 1px #df8f8f; }
+.success {background: #d5ffce; border:solid 1px #9adf8f; }
+
+.error, .success {
+	border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	color:#333;
+	padding:9px;
+	margin-bottom:10px;
+}
+
+/*--- tambahan ---*/
+
+.submit-button2{
+	background: #89A099;
+	border:solid 1px #86CC50;
+	border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	color:#FFF;
+	cursor:pointer;
+	font-size:13px;
+	margin-left:10px;
+	padding:3px 8px;
+}
+
+.submit-button2:hover { background:#99D051 }

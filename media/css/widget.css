@@ -1,0 +1,225 @@
+/* Colours */
+.color-yellow {background:#f2bc00;}
+.color-red    {background:#dd0000;}
+.color-blue   {background:#148ea4;}
+.color-white  {background:#dfdfdf;}
+.color-orange {background:#f66e00;}
+.color-green  {background:#8dc100;}
+.color-yellow h3,.color-white h3,.color-green h3
+	{color:#000;}
+.color-red h3,.color-blue h3,.color-orange h3
+	{color:#FFF;}
+/* End Colours */
+
+/* Columns section */
+#columns .column {
+    margin-left: 20px;
+    float: left;
+    width: 100%;
+		/* Min-height: */
+		/*min-height: 400px;*/
+		height: auto !important;
+		/*height: 400px;*/
+}
+
+/* Column dividers (background-images) : */
+	/*#columns #column1 { background: url(../image/widget/column-bg-left.png) no-repeat right top; }*/
+	/*#columns #column3 { background: url(../image/widget/column-bg-right.png) no-repeat left top; }*/
+
+#columns .widget {
+    
+    margin: 30px 20px 0 20px;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 15px #888;
+	-moz-box-shadow: 0px 0px 15px #888;
+	-webkit-box-shadow: 0px 0px 15px #888;
+}
+#columns .widget .widget-head {
+    color: #000;
+    overflow: visible;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#columns .widget .widget-head h3 {
+    padding: 0 5px;
+    /*float: left;*/
+}
+#columns .widget .widget-content {
+    background: #333
+url(../image/widget/widget-content-bg.png) repeat-x;
+    padding: 5px;
+    color: #DDD;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+/* End Columns section */
+/*----------------------------------------------------------------------------*/
+/*tambahan*/
+#barang .barang {
+    float: left;
+    width: auto;
+		/* Min-height: */
+		height: auto;
+		/*height: auto !important;*/
+		/*height: 400px;*/
+}
+
+/* barang dividers (background-images) : */
+	/*#barangs #barang1 { background: url(../image/widget/barang-bg-left.png) no-repeat right top; }*/
+	/*#barangs #barang3 { background: url(../image/widget/barang-bg-right.png) no-repeat left top; }*/
+
+#barang .widget {
+    float :left;
+    margin: 30px 20px 0 20px;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 15px #888;
+	-moz-box-shadow: 0px 0px 15px #888;
+	-webkit-box-shadow: 0px 0px 15px #888;
+}
+
+#barang .widget ul{
+    display: inline-block;
+}
+
+#barang .widget .widget-head {
+    color: #000;
+    overflow: visible;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#barang .widget .widget-head h3 {
+    padding: 0 5px;
+    /*float: left;*/
+}
+#barang .widget .widget-content {
+    background: #333 url(../image/widget/widget-content-bg.png) repeat-x;
+    padding: 5px;
+    color: #DDD;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+/*----------------------------------------------------------------------------*/
+#display .column {
+    /*float: left;*/
+    width: 575px;
+		/* Min-height: */
+		/*min-height: 400px;*/
+		height: auto !important;
+		/*height: 400px;*/
+}
+
+/* Column dividers (background-images) : */
+	/*#columns #column1 { background: url(../image/widget/column-bg-left.png) no-repeat right top; }*/
+	/*#columns #column3 { background: url(../image/widget/column-bg-right.png) no-repeat left top; }*/
+
+#display .widget {
+    margin: 30px 20px 0 20px;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 15px #888;
+	-moz-box-shadow: 0px 0px 15px #888;
+	-webkit-box-shadow: 0px 0px 15px #888;
+}
+#display .widget .widget-head {
+    color: #000;
+    overflow: visible;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#dislay .widget .widget-head h3 {
+    padding: 0 5px;
+    /*float: left;*/
+}
+
+#display .widget .widget-content {
+    background: white;
+    padding: 5px;
+    color: black;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+
+#display .widget .widget-content img{
+    /*box-shadow: 0px 0px 15px #888;
+	-moz-box-shadow: 0px 0px 15px #888;
+	-webkit-box-shadow: 0px 0px 15px #888;*/
+}
+
+#display .widget .widget-content h3{
+    color:black;
+    
+}
+#display .widget .widget-content h5{
+    color:green;
+    font-size:small;
+}
+/* End barangs section */
+/*----------------------------------------------------------------------------*/
+/*bag kiri*/
+#kanan .kanan {
+    float: left;
+    width: 575px;
+		/* Min-height: */
+		/*min-height: 400px;*/
+		height: auto !important;
+		/*height: 400px;*/
+}
+
+/* Column dividers (background-images) : */
+	/*#columns #column1 { background: url(../image/widget/column-bg-left.png) no-repeat right top; }*/
+	/*#columns #column3 { background: url(../image/widget/column-bg-right.png) no-repeat left top; }*/
+
+#kanan .widget {
+    margin: 30px 20px 0 20px;
+    padding: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+     box-shadow: 0px 0px 15px #888;
+	-moz-box-shadow: 0px 0px 15px #888;
+	-webkit-box-shadow: 0px 0px 15px #888;
+}
+#kanan .widget .widget-head {
+    color: #000;
+    overflow: visible;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#kanan .widget .widget-head h3 {
+    padding: 0 5px;
+    /*float: left;*/
+}
+#kanan .widget .widget-content {
+    /*background: #333 url(../image/widget/widget-content-bg.png) repeat-x;*/
+    background: whitesmoke;
+    padding: 5px;
+    color: black;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
